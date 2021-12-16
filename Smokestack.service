@@ -1,0 +1,14 @@
+[Unit]
+Description=smokestack: Python smoker controller firmware for Raspberry Pi
+After=time-sync.target
+Requires=network-online.target
+
+[Service]
+Type=simple
+User=smokestack
+Group=smokestack
+Restart=always
+ExecStart=sudo /opt/smokestack-firmware/Smokestack.py
+
+[Install]
+WantedBy=multi-user.target
