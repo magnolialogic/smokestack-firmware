@@ -4,7 +4,7 @@ Python smoker controller firmware for Raspberry Pi
 Uses [smokestack-vapor](https://github.com/magnolialogic/smokestack-vapor) to interact with [smokestack-app](https://github.com/magnolialogic/smokestack-app)
 
 ### System Requirements
-* Raspberry Pi 3B+ and [smokestack-hw](https://github.com/magnolialogic/smokestack-hw)
+* Raspberry Pi 3B+ or better
 * Ubuntu@20.04.3 ([needs to be updated to work with 21.04+ kernel](https://ubuntu.com/tutorials/gpio-on-raspberry-pi#1-overview))
 * Python@3.9.5
 
